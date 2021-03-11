@@ -24,7 +24,7 @@ This solution can be implemented manually on a local device but when possible, s
 
 # Automated Detection #
 
-Following the implementation of the Pre-Requisite tasks the client should download the most up to date "AzureADHybrid-UserBaseline.cab" SCCM Baseline Configuration
+Following the implementation of the Pre-Requisite tasks the client should download the most up to date "AzureADHybrid-UserBaseline.cab" SCCM Baseline Configuration from the Git repository.
 
 To start the Import Configuration Data Wizard, in the Configuration Items or Configuration Baselines node in the Assets and Compliance workspace, click “Import Configuration Data”.
 
@@ -36,7 +36,7 @@ The Baseline will return a “Compliant” / green response for all Users in a c
  
  # Automated Remediation #
  
-Following the implementation of the Automated Detection the client should download the provided SCCM "MitigateV3_files-1.1.zip" Application
+Following the implementation of the Automated Detection the client should download the provided SCCM "MitigateV3_files-1.1.zip" Application from the Git repository.
  
 Client’s can manually target Users for remediation with the provided Application or they can create a dynamic SCCM Collection with the Application. A dynamic Collection will allow the client to target the Users who have returned a non-compliant status through the previous Baseline for the deployment of automatic remediation.
 
