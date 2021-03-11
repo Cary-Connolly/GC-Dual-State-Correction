@@ -4,7 +4,9 @@ One of the first steps to remediating any dual state issue is preventing devices
 
 HKLM\SOFTWARE\Policies\Microsoft\Windows\WorkplaceJoin: "BlockAADWorkplaceJoin"=dword:00000001
 
-Registry Key. To perform the update, the device must be connected to the LAN by being either in the office or remotely via VPN.
+Registry Key.
+
+To perform the update, the device must be connected to the LAN by either being present in the office or remotely via VPN.
  
 To enable automatic hybrid join apply the:
 
