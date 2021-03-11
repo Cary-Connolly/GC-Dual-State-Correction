@@ -46,4 +46,6 @@ Following this you should be able to track the status of your deployment in SCCM
  
 “Success” indicates devices that have successfully executed the automatic remediation Application. “In Progress” represents those devices that have still yet to finish the process. Those showing as “Error” or otherwise must be manually investigated for remediation. A common cause of errors is the restriction of PowerShell execution policies on endpoint devices.
 
+## What Users Can Expect ##
+
 When deployed to Users the automatic remediation application will execute a short series of tasks when connected to VPN. While most of these tasks will take place silently in the background, there is a requirement for a full restart of the User’s device. The User will be prompted before this restart takes place and will only execute when the User has clicked the appropriate “OK”. Following the restart, the client is expected to log back into VPN, and will have the device trigger a lock screen to ensure the client logs back into the desktop and is granted the appropriate Primary Refresh Token (PRT).
