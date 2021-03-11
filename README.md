@@ -36,7 +36,7 @@ The Baseline will return a “Compliant” / green response for all Users in a c
  
  # Automated Remediation #
  
- Following the implementation of the Automated Detection the client should download the provided SCCM "" Application
+Following the implementation of the Automated Detection the client should download the provided SCCM "MitigateV3_files-1.1.zip" Application
  
 Client’s can manually target Users for remediation with the provided Application or they can create a dynamic SCCM Collection with the Application. A dynamic Collection will allow the client to target the Users who have returned a non-compliant status through the previous Baseline for the deployment of automatic remediation.
 
