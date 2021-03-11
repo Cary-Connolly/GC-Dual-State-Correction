@@ -39,8 +39,10 @@ The Baseline will return a “Compliant” / green response for all Users in a c
  Following the implementation of the Automated Detection the client should download the provided SCCM "" Application
  
 Client’s can manually target Users for remediation with the provided Application or they can create a dynamic SCCM Collection with the Application. A dynamic Collection will allow the client to target the Users who have returned a non-compliant status through the previous Baseline for the deployment of automatic remediation.
+
 To create a dynamic Collection that populates based off the output of the previous Baseline deployment, select the previously created baseline, hover over “Create New Collection” and create a Collection for “Non-compliant” Users.
-Following this you should be able to track the status of your deployment in SCCM like the figure provided below:
+
+Following this you should be able to track the status of your deployment in SCCM.
  
 “Success” indicates devices that have successfully executed the automatic remediation Application. “In Progress” represents those devices that have still yet to finish the process. Those showing as “Error” or otherwise must be manually investigated for remediation. A common cause of errors is the restriction of PowerShell execution policies on endpoint devices.
 
