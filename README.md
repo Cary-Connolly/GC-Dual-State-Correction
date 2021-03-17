@@ -33,6 +33,10 @@ Select the “AzureAD-HybridBaseline.cab” Configuration Baseline you downloade
 Use the Create Configuration Baseline dialog box to create a new configuration baseline targeting Device Baseline, Device Mitigation, Device Collection.
 
 The Baseline will return a “Compliant” / green response for all Users in a clean state (only Azure AD Joined and Domain Joined), a “Non-Compliant” / blue response for all Users that are in a dual state (Azure AD Joined, Domain Joined, and Workspace Joined), and an “Error” / red response for those that encounter an error.
+
+## Recorded Steps ##
+
+A Problem Step Recorder (PSR) walk through of the deployment of the Automatic Detection component has been provided in the "Automated Detection Steps Recording" file stored in this repository.
  
  # Automated Remediation #
  
@@ -45,6 +49,10 @@ To create a dynamic Collection that populates based off the output of the previo
 Following this you should be able to track the status of your deployment in SCCM.
  
 “Success” indicates devices that have successfully executed the automatic remediation Application. “In Progress” represents those devices that have still yet to finish the process. Those showing as “Error” or otherwise must be manually investigated for remediation. A common cause of errors is the restriction of PowerShell execution policies on endpoint devices.
+
+## Recorded Steps ##
+
+A Problem Step Recorder (PSR) walk through of the deployment of the Automatic Remediation component has been provided in the "Automated Remediation Steps Recording" file stored in this repository.
 
 ## What Users Can Expect ##
 
