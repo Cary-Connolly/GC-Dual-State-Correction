@@ -1,4 +1,4 @@
-# Introduction, #
+# Introduction #
 
 As part of the steps for the DCCP project, end user devices (PCs / Laptops) must be trusted through an automated  “Hybrid Join” process. It has been identified that through the standard Hybrid Join process, a number of devices end up in an error state that can impact the end users connection and services from M365. 
 
