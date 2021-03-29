@@ -1,3 +1,17 @@
+# Introduction #
+
+As part of the steps for the DCCP project, end user devices (PCs / Laptops) must be trusted through an automated  “Hybrid Join” process. It has been identified that through the standard Hybrid Join process, a number of devices end up in an error state that can impact the end users connection and services from M365. 
+
+The process to resolve the issues are through Detection and Remediation automated scripts that are used to identify devices that are mis-configured and then correct them. Devices that are mis-configured may not display the blocking message at this stage but may fail during other activities like password reset or Windows 10 patching.
+
+Because of variances in department desktop configurations, the scripts from Microsoft have a “not for Production” disclaimer so each partner is required to complete a testing cycle for their environment.
+
+The scripts and the processes to run as identified below in the “readme” document and all documentation and information is available at : https://github.com/Cary-Connolly/GC-Dual-State-Correction
+
+Please send any administrative questions or results from the detection scripts to Jamie Maycock Jamie.maycock@canada.ca
+
+If you have any technical questions or concerns please contact Cary Connolly cary.connolly@canada.ca or Josh Wittkie  jwittkie@microsoft.com
+
 # Pre-Requisite Tasks #
 
 One of the first steps to remediating any dual state issue is preventing devices from participating in AD Registration. This can be accomplished by applying the:
